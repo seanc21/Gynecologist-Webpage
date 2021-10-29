@@ -179,7 +179,7 @@ header {
     position: absolute;
     width: 350px;
     left: 60rem;
-    top: 15rem;
+    top: 11rem;
     border-radius: 30% 30% 30% 30%;
     transition: all 0.25s;
 }
@@ -197,28 +197,89 @@ header {
     margin-top: 30px;
 }
 
-
+/* Iphone X, 11, 12, 13 screen */
 @media (max-width: 600px) {
-
-    #navbar-image {
-        top: 14px;
-        left: 55px;
-        width: 35px;
-    }
-    nav ul li a {
-        padding: 10px 16px;
-        font-size: 13px;
-    }
-
-    .content-wrap a i {
-        margin-top: 8rem !important;
+    .image-logo {
+        width: 30px;
+        left: 18px;
+        top: 23px;
     }
     
+    .text-logo {
+        font-size: 0.8rem;
+    }
+
+    header {
+        padding: 1px 20px 1px 55px;
+    }
+
+    .nav__list-item {
+        margin: 10px 12px;
+    }
+
+    .nav__link {
+        margin-top: 10px;
+        font-size: 0.7rem;
+    }
+
+    #showcase .logo {
+        width: 150px;
+        left: 7.7rem;
+        top: 7rem;
+    }
+
+    #showcase h1 {
+        font-size: 70px;
+        line-height: 60px;
+        text-align: center;
+    }
+    
+    #showcase h3 {
+        margin: 20px 0;
+        font-weight: 10;
+        font-size: 30px;
+        margin-left: 2px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    #showcase p {
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+    
+    .add-parallax {
+        background-image: url(images/baby-photo.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 0;
+        margin-bottom: 40px;
+    }
+
+    .inner-parallax {
+        margin: 0 0 -20.5rem 0 !important;
+    }
+
+    .inner-parallax .quote {
+        font-size: 70px !important;
+        margin-top: -10px !important;
+        color: rgb(59, 59, 59);
+    }
+    
+    /* What I do section */
     .box-background {
         padding: 20px 20px 30px 20px !important;
-        margin: 38px 60px 20px 60px;
+        margin: 38px 60px 20px 60px !important;
         background-color: rgba(219,207,238,0.18);
         border-radius: 15px;
+    }
+
+    .contact-bg {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -265,14 +326,14 @@ header {
 
 /* parallax */
 .parallax {
-    background: url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F38%2F2015%2F06%2F12223208%2Fshutterstock_88040917.jpg&q=85)
+    background: url(images/baby-photo.jpeg)
         no-repeat fixed 100%;
     opacity: .9;
 }
 
 .inner-parallax {
     padding: 8% 0;
-    margin: 0 0 2rem 0;
+    margin: 0 0 4.5rem 0;
 }
 
 .inner-parallax .quote {
@@ -339,9 +400,6 @@ header {
     padding: 8px 10px 10px 10px;
     border-radius: 50%;
     margin: 8px;
-    /* margin: 0 323px;
-    padding: 10px;
-    border-radius: 50%; */
     background-color: rgb(151, 151, 151);
 }
 
@@ -374,5 +432,10 @@ header {
 
     .box {
       grid-column: span 2;
+    }
+
+    .contact-bg {
+        display: flex;
+        justify-content: center;
     }
 }
