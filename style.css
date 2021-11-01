@@ -300,6 +300,37 @@ header {
         margin-right: 30px;
     }
 
+    /* Testing for samsung A50 */
+    #showcase .logo {
+        width: 150px;
+        left: 6.7rem;
+        top: 6rem;
+    }
+
+    #showcase h1 {
+        font-size: 70px;
+        line-height: 60px;
+        text-align: center;
+    }
+    
+    #showcase h3 {
+        margin: 20px 0;
+        font-weight: 10;
+        font-size: 30px;
+        margin-left: 2px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+    
+    #showcase p {
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Lora', serif;
+    }
+
+    /*  */
+
     .nav__list-item {
         margin: 10px 12px;
     }
