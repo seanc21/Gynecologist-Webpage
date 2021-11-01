@@ -131,6 +131,7 @@ header {
 
 #showcase {
     position: relative;
+    display: flex;
     color:rgb(0, 0, 0);
     /* background-color: rgb(185, 136, 136); */
     background-color: rgb(57, 153, 134);
@@ -197,8 +198,8 @@ header {
     margin-top: 30px;
 }
 
-/* Iphone X, 11, 12, 13 screen */
-@media (max-width: 600px) {
+/* Iphone X, 11, 12, 13 viewport */
+@media (max-width: 400px) {
     .image-logo {
         width: 30px;
         left: 18px;
@@ -283,7 +284,46 @@ header {
     }
 }
 
+/* Samsung s21 ultra viewport */
+@media (min-width: 350px) and (max-width: 380px) {
+    .image-logo {
+        width: 30px;
+        top: 18px;
+    }
 
+    header {
+        padding: 1px 2px 1px 55px;
+    }
+
+    .text-logo {
+        font-size: 0.5rem;
+        margin-right: 30px;
+    }
+
+    .nav__list-item {
+        margin: 10px 12px;
+    }
+
+    .nav__link {
+        margin-top: 10px;
+        font-size: 0.5rem;
+    }
+
+    .add-parallax {
+        background-image: url(images/baby-photo.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 0;
+        margin-bottom: 40px;
+    }
+
+    .inner-parallax .quote {
+        font-size: 70px !important;
+        margin-top: -10px !important;
+        color: rgb(59, 59, 59);
+    }
+}
 
 /* What I Do */
 #what-i-do {
@@ -360,7 +400,7 @@ header {
 
 /* Contact */
 .contact-bg {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     background: #1a1c20 none repeat center top;
 }
 
@@ -387,24 +427,28 @@ header {
     color: rgb(71, 163, 148);
 }
 
-.facebook,
-.email{
+.location {
+    margin-right: 5px;
+}
+
+.facebook, .email,
+.phone{
     color: #666666;
 }
 
-.facebook-button,
-.email-button {
+.facebook-button, .email-button,
+.phone-button {
     display:block;
     height: 40px;
     width: 40px;
     padding: 8px 10px 10px 10px;
     border-radius: 50%;
     margin: 8px;
-    background-color: rgb(151, 151, 151);
+    background-color: rgb(255, 255, 255);
 }
 
-.facebook-button:hover,
-.email-button:hover {
+.facebook-button:hover, .email-button:hover,
+.phone-button:hover {
     color: #f7f7f7;
     background-color: #4c91b9;
 }
@@ -414,8 +458,121 @@ header {
     justify-content: center;
 }
 
+.copyright {
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 10px;
+}
 
-@media (min-width: 700px) {
+/* Tablet viewport */
+@media (min-width: 800px) and (max-width: 1350px) and (orientation: portrait) {
+    .image-logo {
+        width: 40px;
+        left: 45px;
+        top: 23px;
+    }
+    
+    .text-logo {
+        font-size: 1.5rem;
+    }
+
+    header {
+        padding: 1px 20px 1px 100px;
+    }
+
+    .nav__list-item {
+        margin: 10px 12px;
+    }
+
+    .nav__link {
+        margin-top: 10px;
+        font-size: 1.4rem;
+    }
+
+    #showcase .logo {
+        width: 450px;
+        left: 7.7rem;
+        top: 10rem;
+    }
+
+    .add-parallax {
+        background-image: url(images/baby-photo.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 0;
+        margin-bottom: 40px;
+    }
+
+    .inner-parallax {
+        margin: 0 0 -22.5rem 0 !important;
+    }
+
+    .inner-parallax .quote {
+        font-size: 70px !important;
+        margin-top: -10px !important;
+        color: rgb(59, 59, 59);
+    }
+
+    .inner-parallax .quote {
+        font-size: 70px !important;
+        margin-top: -10px !important;
+        color: rgb(59, 59, 59);
+    }
+
+    .box-background {
+        padding: 20px 20px 30px 20px !important;
+        margin: 38px 60px 20px 60px !important;
+    }
+}
+
+/* Tablet Viewport */
+@media (min-width: 800px) and (max-width: 1350px) and (orientation: landscape) {
+    .image-logo {
+        width: 40px;
+        left: 55px;
+        top: 16px;
+    }
+
+    #showcase .logo {
+        width: 450px;
+        left: 50.7rem;
+        top: 13.5rem;
+        padding-right: 40px;
+    }
+
+    .add-parallax {
+        background-image: url(images/baby-photo.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 200px 0;
+        margin-bottom: 40px;
+    }
+
+    .inner-parallax {
+        margin: 0 0 -25.5rem 0 !important;
+    }
+
+    .inner-parallax .quote {
+        font-size: 70px !important;
+        margin-top: -10px !important;
+        color: rgb(59, 59, 59);
+    }
+
+    .inner-parallax .quote {
+        font-size: 70px !important;
+        margin-top: -10px !important;
+        color: rgb(59, 59, 59);
+    }
+    
+    .box-background {
+        padding: 20px 20px 30px 20px !important;
+        margin: 38px 60px 20px 60px !important;
+    }
+}
+
+@media (min-width: 1360px) {
     .grid {
       display: grid;
       grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
