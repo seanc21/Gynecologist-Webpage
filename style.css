@@ -143,7 +143,7 @@ header {
     padding: 0 8%;
     width: 100%;
     height: 100vh;
-    min-height: 450px;  
+    min-height: 450px;
 }
 
 #showcase .content-wrap {
@@ -283,6 +283,10 @@ header {
         display: flex;
         justify-content: center;
     }
+
+    .parallax {
+        display: none;
+    }
 }
 
 
@@ -311,13 +315,15 @@ header {
     }
 
     #showcase h1 {
+        margin-right: 3px;
         font-size: 70px;
-        line-height: 60px;
+        line-height: 70px;
         text-align: center;
     }
     
     #showcase h3 {
-        margin: 20px 0;
+        margin-right: 3px;
+        margin: 16px 0;
         font-weight: 10;
         font-size: 30px;
         margin-left: 2px;
@@ -326,6 +332,7 @@ header {
     }
     
     #showcase p {
+        margin-right: 3px;
         font-size: 50px;
         font-weight: 600;
         text-align: center;
@@ -452,6 +459,10 @@ header {
     .contact-bg {
         display: flex;
         justify-content: center;
+    }
+
+    .parallax {
+        display: none;
     }
 }
 
