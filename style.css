@@ -289,6 +289,15 @@ header {
     }
 }
 
+/* Iphone 8 */
+@media (min-width: 300px) and (max-width: 349px) {
+    .image-logo {
+        width: 10px;
+        left: 18px;
+        top: 10px;
+    }
+}
+
 
 /* Samung a50 viewport 412px | TESTING */
 @media (min-width: 401px) and (max-width: 600px) {
@@ -439,6 +448,36 @@ header {
     .nav__link {
         margin-top: 10px;
         font-size: 0.5rem;
+    }
+
+    #showcase .logo {
+        width: 140px;
+        left: 7rem;
+        top: 5.5rem;
+    }
+
+    #showcase .textwidget {
+        margin-bottom: 100px !important;
+        text-align: center;
+    }
+
+    #showcase h1 {
+       margin-left: 1px;
+        text-align: center;
+    }
+    
+    #showcase h3 {
+        margin: 10px 0;
+        font-weight: 10;
+        font-size: 23px;
+        color: rgb(255, 255, 255);
+    }
+    
+    #showcase p {
+        margin-right: 5px;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: 'Lora', serif;
     }
 
     .add-parallax {
