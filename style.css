@@ -320,7 +320,7 @@ header {
     #showcase .logo {
         width: 150px;
         left: 8rem;
-        top: 6rem;
+        top: 5.5rem;
     }
 
     #showcase h1 {
@@ -334,7 +334,7 @@ header {
         margin-right: 3px;
         margin: 16px 0;
         font-weight: 10;
-        font-size: 30px;
+        font-size: 25px;
         margin-left: 2px;
         text-align: center;
         color: rgb(255, 255, 255);
@@ -342,7 +342,7 @@ header {
 
     
     #showcase p {
-        margin-right: 4px;
+        margin-right: 6px;
         font-size: 50px;
         font-weight: 600;
         text-align: center;
