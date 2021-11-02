@@ -323,14 +323,14 @@ header {
         top: 6rem;
     }
 
-    /* #showcase h1 {
+    #showcase h1 {
         margin-right: 3px;
         font-size: 70px;
         line-height: 70px;
         text-align: center;
-    } */
+    }
     
-    /* #showcase h3 {
+    #showcase h3 {
         margin-right: 3px;
         margin: 16px 0;
         font-weight: 10;
@@ -338,23 +338,11 @@ header {
         margin-left: 2px;
         text-align: center;
         color: rgb(255, 255, 255);
-    } */
-
-    #showcase h1 {
-        margin-left: 2px;
-        text-align: center;
-        margin: 0 0 10px 0;
     }
 
-    #showcase h3 {
-        margin: 12px 0;
-        font-weight: 10;
-        font-size: 25px;
-        color: rgb(255, 255, 255);
-    }
     
     #showcase p {
-        margin-right: 8px;
+        margin-right: 4px;
         font-size: 50px;
         font-weight: 600;
         text-align: center;
