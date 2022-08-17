@@ -357,7 +357,38 @@ header {
         font-family: 'Lora', serif;
     }
 
-    /*  */
+    /* Old code */
+    /* #showcase .logo {
+        width: 150px;
+        left: 8rem;
+        top: 5rem;
+    }
+
+    #showcase h1 {
+        margin-right: 3px;
+        font-size: 70px;
+        line-height: 70px;
+        text-align: center;
+    }
+    
+    #showcase h3 {
+        margin-right: 3px;
+        margin: 16px 0;
+        font-weight: 10;
+        font-size: 25px;
+        margin-left: 2px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+    }
+
+    
+    #showcase p {
+        margin-right: 6px;
+        font-size: 50px;
+        font-weight: 600;
+        text-align: center;
+        font-family: 'Lora', serif;
+    } */
 
     .nav__list-item {
         margin: 10px 12px;
